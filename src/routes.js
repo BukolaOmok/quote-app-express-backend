@@ -30,7 +30,7 @@ const setupRoutes = (app) => {
         };
 
         const dbResult = await client.query(
-            "INSERT INTO tv_quotes (text, author, showName) VALUES ($1, $2) RETURNING *",
+            "INSERT INTO tv_quotes (text, author, showName) VALUES ($1, $2, $3) RETURNING *",
             [safeQuote.text, safeQuote.author, safeQuote.showName]
         );
 
