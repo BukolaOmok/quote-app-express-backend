@@ -1,24 +1,17 @@
-# Intermediate starter for _javascript_ express APIs.
-
-This is an intermediate starter template for node.js API apps written in JavaScript (not TypeScript) using Express.
-
-It does not use express router, though you are free to make use of that.
+# PostgreSQL Practice 
+This is my first postgreSQL database practice. You may find it useful for your first practice too.
 
 ## Configuration on dev machine
 
 Copy `.env.example` to `.env` and set any variables there appropriately:
 
--   `DATABASE_URL` to your database's connection string.
+If like me you made use of database, then follow along.
 
-If you are not using a database, change server.js to remove any import of the `support/db.js` module.
+-   `DATABASE_URL` to your database's connection string.
 
 ## Configuration on production environment
 
-If you using a DB for this API, set the `DATABASE_URL` environment variable (e.g. on render.com this is done through the UI under settings/environment).
-
-## Change this README.md file!
-
-If you have used this project as a template, remember to change this readme file to add your own documentation and remove anything you don't need.
+Set the `DATABASE_URL` environment variable (e.g. on render.com this is done through the UI under settings/environment).
 
 ## Features
 
@@ -93,7 +86,7 @@ Set a breakpoint in the margin of any JS file, and use run-and-debug (ctrl-shift
 
 ## Documenting your API
 
-An simple example swagger document can be found in `openapi-docs/openapi.json`.
+A simple example swagger document can be found in `openapi-docs/openapi.json`.
 
 If you don't need it, it can be safely deleted.
 
