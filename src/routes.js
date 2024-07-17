@@ -1,7 +1,6 @@
 import pg from "pg";
 
 const dbURL = process.env.DATABASE_URL;
-console.log(dbURL.length);
 
 const client = new pg.Client({
     connectionString: dbURL,
