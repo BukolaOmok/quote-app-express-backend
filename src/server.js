@@ -1,6 +1,5 @@
 import { app } from "./support/setupExpress.js";
-import { query } from "./support/db.js";
-import {setupRoutes} from "./routes.js"
+import { setupRoutes } from "./routes.js";
 
 // This configures the request handling
 setupRoutes(app);
